@@ -1,0 +1,155 @@
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\blank 1.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\blank 3.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\blank 5.pdf | PdfStreamError: Stream has ended unexpectedly
+OK |    2 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\blank form.pdf
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922201519.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922201648.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922201733.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922201804.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922201840.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922202029.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922202108.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922202148.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922202227.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922202316.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922202348.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922202421.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922202448.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922202515.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922202541.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922202608.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922202635.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922202703.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922202733.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922202801.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922202828.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922202855.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922202928.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922202954.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 11 am\doc20260922203019.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922204438.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922204515.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922204542.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922204610.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922204637.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922204705.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922204733.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922204800.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922204829.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922204856.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922204925.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922204953.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922205021.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922205049.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922205117.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922205145.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922205214.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922205241.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922205309.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922205337.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922205405.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922205433.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 5 pm\doc20260922205504.pdf | PdfStreamError: Stream has ended unexpectedly
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922195858.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922195931.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922200009.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922200042.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922200117.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922200156.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922200230.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922200305.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922200340.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922200413.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922200448.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922200523.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922200557.pdf
+OK |   18 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922200632.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922200705.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922200740.pdf
+OK |   18 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922200814.pdf
+OK |   16 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922200848.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922200933.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922201009.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922201044.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\OLV 9 am\doc20260922201120.pdf
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\Samoan\doc20260922210635.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\Samoan\doc20260922210703.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\Samoan\doc20260922210744.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\Samoan\doc20260922210817.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\Samoan\doc20260922210854.pdf | PdfStreamError: Stream has ended unexpectedly
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St B\doc20260922205625.pdf
+OK |   22 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St B\doc20260922205659.pdf
+OK |   18 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St B\doc20260922205735.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St B\doc20260922205918.pdf
+OK |   18 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St B\doc20260922205954.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St B\doc20260922210026.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St B\doc20260922210101.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St B\doc20260922210135.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St B\doc20260922210213.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St B\doc20260922210302.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St B\doc20260922210338.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St B\doc20260922210415.pdf
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St B\doc20260922210449.pdf | PdfStreamError: Stream has ended unexpectedly
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922192026.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922192101.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922192132.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922192204.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922192235.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922192311.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922192345.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922192414.pdf
+OK |   18 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922192444.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922192514.pdf
+OK |   22 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922192607.pdf
+OK |    4 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922193439.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922194944.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922195012.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922195040.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922195108.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922195137.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922195209.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922195236.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922195304.pdf
+OK |   24 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922195330.pdf
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922195359.pdf | PdfStreamError: Stream has ended unexpectedly
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 10 am\doc20260922195427.pdf | PdfStreamError: Stream has ended unexpectedly
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922203156.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922203240.pdf
+OK |   18 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922203317.pdf
+OK |   18 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922203350.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922203425.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922203500.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922203534.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922203607.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922203640.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922203715.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922203750.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922203826.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922203909.pdf
+OK |   22 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922203944.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922204019.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922204056.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922204133.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922204207.pdf
+OK |   16 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922204241.pdf
+ERROR | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 7 pm\doc20260922204311.pdf | PdfStreamError: Stream has ended unexpectedly
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922193844.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922193918.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922193947.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922194014.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922194041.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922194114.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922194141.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922194213.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922194241.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922194310.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922194346.pdf
+OK |   16 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922194415.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922194506.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922194538.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922194612.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922194640.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922194709.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922194737.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922194808.pdf
+OK |   20 pages | C:\Users\BarryPrince\OneDrive - Fabrum\Desktop\Temp\St T 8 am\doc20260922194833.pdf

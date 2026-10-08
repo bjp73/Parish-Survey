@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "source_file": "blank 3.pdf",
+  "survey_name": "Holy Family Parish Bi-Annual Parish Survey",
+  "coordinate_system": {
+    "type": "normalised_logical_page",
+    "origin": "top_left",
+    "x_range": [0.0, 1.0],
+    "y_range": [0.0, 1.0],
+    "box_order": ["x1", "y1", "x2", "y2"],
+    "page_definition": "Each physical A3 side is corrected for rotation/scale and split into two logical portrait pages. Coordinates below apply after that correction and splitting.",
+    "important": "Coordinates are template-level seed regions and should be refined against the original-resolution scan before production OMR. Convert to pixels with x_px=x_norm*page_width_px and y_px=y_norm*page_height_px."
+  },
+  "physical_sheet": {
+    "paper": "A3",
+    "logical_pages_per_survey": 4,
+    "registration_marks": {
+      "corner_squares": [
+        {"id":"top_left","box":[0.010,0.010,0.070,0.055]},
+        {"id":"top_right","box":[0.930,0.010,0.990,0.055]},
+        {"id":"bottom_left","box":[0.010,0.945,0.070,0.990]},
+        {"id":"bottom_right","box":[0.930,0.945,0.990,0.990]}
+      ],
+      "top_centre_triangle":{"box":[0.455,0.000,0.545,0.060]}
+    },
+    "barcode": {
+      "expected_location": "bottom of each logical page",
+      "box": [0.340,0.925,0.660,0.995],
+      "content": ["unique_survey_number","logical_page_number"]
+    }
+  },
+  "question_types": {
+    "single": "exactly zero or one option circle may be marked",
+    "multiple": "zero or more option circles may be marked",
+    "written": "handwritten response expected in a rectangular region",
+    "single_with_written_other": "one option circle, with a written region enabled when Other is selected",
+    "multiple_with_written_other": "multiple option circles, with a written region enabled when Other is selected",
+    "scale_single": "one circle per scale row"
+  },
+  "questions": [
+    {"id":"Q1","page":1,"type":"single","text":"How long have you been coming to Mass at Holy Family Parish?","inputs":[
+      {"kind":"circle","option":"Less than 2 years","box":[0.070,0.448,0.091,0.466]},
+      {"kind":"circle","option":"Between 2-10 years","box":[0.070,0.474,0.091,0.492]},
+      {"kind":"circle","option":"Between 20-30 years","box":[0.070,0.500,0.091,0.518]},
+      {"kind":"circle","option":"I am a visitor / do not usually attend Mass at this Parish","box":[0.070,0.526,0.091,0.544]},
+      {"kind":"circle","option":"Between 11-20 years","box":[0.378,0.474,0.399,0.492]},
+      {"kind":"circle","option":"More than 30 years","box":[0.378,0.500,0.399,0.518]}
+    ]},
+    {"id":"Q2","page":1,"type":"single","text":"If you have been attending Holy Family Parish for less than 2 years, which statement best describes you?","inputs":[
+      {"kind":"circle","option":"I have started attending Catholic Mass for the first time recently","box":[0.070,0.606,0.091,0.624]},
+      {"kind":"circle","option":"I have begun attending Catholic Mass again after not attending for some time","box":[0.070,0.631,0.091,0.649]},
+      {"kind":"circle","option":"I come from Christ the King Church or Our Lady of the Assumption church after they closed","box":[0.070,0.656,0.091,0.674]},
+      {"kind":"circle","option":"I have come from another Catholic parish in Christchurch or elsewhere in New Zealand","box":[0.070,0.681,0.091,0.699]},
+      {"kind":"circle","option":"I have come from a Catholic parish overseas","box":[0.070,0.706,0.091,0.724]},
+      {"kind":"circle","option":"None of the above","box":[0.070,0.731,0.091,0.749]}
+    ]},
+    {"id":"Q3","page":1,"type":"multiple_with_written_other","text":"In the past 12 months what types of Parish activities have you been involved in?","inputs":[
+      {"kind":"circle","option":"Prayer or bible study group","box":[0.070,0.810,0.091,0.828]},
+      {"kind":"circle","option":"Fellowship or leisure group","box":[0.070,0.834,0.091,0.852]},
+      {"kind":"circle","option":"Faith formation workshop or programme","box":[0.070,0.858,0.091,0.876]},
+      {"kind":"circle","option":"Service to the parish","box":[0.070,0.882,0.091,0.900]},
+      {"kind":"circle","option":"Preparing for or serving at Mass","box":[0.070,0.906,0.091,0.924]},
+      {"kind":"circle","option":"Community service, social justice or welfare activity","box":[0.070,0.930,0.091,0.948]},
+      {"kind":"circle","option":"Other","box":[0.070,0.954,0.091,0.972]},
+      {"kind":"text","field":"other_text","box":[0.105,0.948,0.610,0.978]},
+      {"kind":"circle","option":"None of the above","box":[0.070,0.978,0.091,0.996]}
+    ]},
+
+    {"id":"Q4","page":2,"type":"single","text":"Last week, how much did you give to Christchurch West Parish?","inputs":[
+      {"kind":"circle","option":"None","box":[0.063,0.066,0.084,0.084]},
+      {"kind":"circle","option":"$1-$5","box":[0.350,0.066,0.371,0.084]},
+      {"kind":"circle","option":"$6-$10","box":[0.676,0.066,0.697,0.084]},
+      {"kind":"circle","option":"$11-$20","box":[0.063,0.091,0.084,0.109]},
+      {"kind":"circle","option":"$21-$50","box":[0.350,0.091,0.371,0.109]},
+      {"kind":"circle","option":"More than $50","box":[0.676,0.091,0.697,0.109]}
+    ]},
+    {"id":"Q5a","page":2,"type":"scale_single","text":"I have a good friend in this Parish","inputs":[
+      {"kind":"circle","option":"1","box":[0.531,0.194,0.553,0.213]},{"kind":"circle","option":"2","box":[0.572,0.194,0.594,0.213]},{"kind":"circle","option":"3","box":[0.613,0.194,0.635,0.213]},{"kind":"circle","option":"4","box":[0.654,0.194,0.676,0.213]},{"kind":"circle","option":"5","box":[0.695,0.194,0.717,0.213]},{"kind":"circle","option":"6","box":[0.736,0.194,0.758,0.213]},{"kind":"circle","option":"7","box":[0.777,0.194,0.799,0.213]},{"kind":"circle","option":"8","box":[0.818,0.194,0.840,0.213]},{"kind":"circle","option":"9","box":[0.859,0.194,0.881,0.213]}
+    ]},
+    {"id":"Q5b","page":2,"type":"scale_single","text":"I know other parishioners who I can chat with after Mass","inputs":[
+      {"kind":"circle","option":"1","box":[0.531,0.224,0.553,0.243]},{"kind":"circle","option":"2","box":[0.572,0.224,0.594,0.243]},{"kind":"circle","option":"3","box":[0.613,0.224,0.635,0.243]},{"kind":"circle","option":"4","box":[0.654,0.224,0.676,0.243]},{"kind":"circle","option":"5","box":[0.695,0.224,0.717,0.243]},{"kind":"circle","option":"6","box":[0.736,0.224,0.758,0.243]},{"kind":"circle","option":"7","box":[0.777,0.224,0.799,0.243]},{"kind":"circle","option":"8","box":[0.818,0.224,0.840,0.243]},{"kind":"circle","option":"9","box":[0.859,0.224,0.881,0.243]}
+    ]},
+    {"id":"Q5c","page":2,"type":"scale_single","text":"I consider the people who I see at parish activities friends","inputs":[
+      {"kind":"circle","option":"1","box":[0.531,0.254,0.553,0.273]},{"kind":"circle","option":"2","box":[0.572,0.254,0.594,0.273]},{"kind":"circle","option":"3","box":[0.613,0.254,0.635,0.273]},{"kind":"circle","option":"4","box":[0.654,0.254,0.676,0.273]},{"kind":"circle","option":"5","box":[0.695,0.254,0.717,0.273]},{"kind":"circle","option":"6","box":[0.736,0.254,0.758,0.273]},{"kind":"circle","option":"7","box":[0.777,0.254,0.799,0.273]},{"kind":"circle","option":"8","box":[0.818,0.254,0.840,0.273]},{"kind":"circle","option":"9","box":[0.859,0.254,0.881,0.273]}
+    ]},
+    {"id":"Q6","page":2,"type":"single","text":"In the past month, have you invited someone to Mass or a parish activity?","inputs":[{"kind":"circle","option":"Yes","box":[0.063,0.333,0.084,0.351]},{"kind":"circle","option":"No","box":[0.327,0.333,0.348,0.351]}]},
+    {"id":"Q7","page":2,"type":"single","text":"In the past month, has someone in the parish asked you about YOUR spiritual wellbeing?","inputs":[{"kind":"circle","option":"Yes","box":[0.063,0.406,0.084,0.424]},{"kind":"circle","option":"No","box":[0.327,0.406,0.348,0.424]}]},
+    {"id":"Q8","page":2,"type":"single","text":"In the past month, have you asked someone in the parish about THEIR spiritual wellbeing?","inputs":[{"kind":"circle","option":"Yes","box":[0.063,0.478,0.084,0.496]},{"kind":"circle","option":"No","box":[0.327,0.478,0.348,0.496]}]},
+    {"id":"Q9","page":2,"type":"multiple","text":"Which, if any, of the following Sacraments have you received?","inputs":[
+      {"kind":"circle","option":"Baptism","box":[0.063,0.620,0.084,0.638]},{"kind":"circle","option":"Reconciliation/Confession","box":[0.337,0.620,0.358,0.638]},{"kind":"circle","option":"First Communion","box":[0.690,0.620,0.711,0.638]},
+      {"kind":"circle","option":"Confirmation","box":[0.063,0.646,0.084,0.664]},{"kind":"circle","option":"Marriage","box":[0.337,0.646,0.358,0.664]},{"kind":"circle","option":"Anointing of the Sick","box":[0.690,0.646,0.711,0.664]},
+      {"kind":"circle","option":"None of the above","box":[0.063,0.672,0.084,0.690]}
+    ]},
+    {"id":"Q10a","page":2,"type":"scale_single","text":"The Catholic faith shapes how I live my life","inputs":[{"kind":"circle","option":"1","box":[0.531,0.794,0.553,0.813]},{"kind":"circle","option":"2","box":[0.572,0.794,0.594,0.813]},{"kind":"circle","option":"3","box":[0.613,0.794,0.635,0.813]},{"kind":"circle","option":"4","box":[0.654,0.794,0.676,0.813]},{"kind":"circle","option":"5","box":[0.695,0.794,0.717,0.813]},{"kind":"circle","option":"6","box":[0.736,0.794,0.758,0.813]},{"kind":"circle","option":"7","box":[0.777,0.794,0.799,0.813]},{"kind":"circle","option":"8","box":[0.818,0.794,0.840,0.813]},{"kind":"circle","option":"9","box":[0.859,0.794,0.881,0.813]}]},
+    {"id":"Q10b","page":2,"type":"scale_single","text":"It is important to me to observe Catholic practices","inputs":[{"kind":"circle","option":"1","box":[0.531,0.824,0.553,0.843]},{"kind":"circle","option":"2","box":[0.572,0.824,0.594,0.843]},{"kind":"circle","option":"3","box":[0.613,0.824,0.635,0.843]},{"kind":"circle","option":"4","box":[0.654,0.824,0.676,0.843]},{"kind":"circle","option":"5","box":[0.695,0.824,0.717,0.843]},{"kind":"circle","option":"6","box":[0.736,0.824,0.758,0.843]},{"kind":"circle","option":"7","box":[0.777,0.824,0.799,0.843]},{"kind":"circle","option":"8","box":[0.818,0.824,0.840,0.843]},{"kind":"circle","option":"9","box":[0.859,0.824,0.881,0.843]}]},
+    {"id":"Q10c","page":2,"type":"scale_single","text":"Accepting all Catholic teaching is important to me","inputs":[{"kind":"circle","option":"1","box":[0.531,0.854,0.553,0.873]},{"kind":"circle","option":"2","box":[0.572,0.854,0.594,0.873]},{"kind":"circle","option":"3","box":[0.613,0.854,0.635,0.873]},{"kind":"circle","option":"4","box":[0.654,0.854,0.676,0.873]},{"kind":"circle","option":"5","box":[0.695,0.854,0.717,0.873]},{"kind":"circle","option":"6","box":[0.736,0.854,0.758,0.873]},{"kind":"circle","option":"7","box":[0.777,0.854,0.799,0.873]},{"kind":"circle","option":"8","box":[0.818,0.854,0.840,0.873]},{"kind":"circle","option":"9","box":[0.859,0.854,0.881,0.873]}]},
+    {"id":"Q11","page":2,"type":"single","text":"When did you last attend Sunday Mass?","inputs":[{"kind":"circle","option":"Last Sunday","box":[0.063,0.944,0.084,0.962]},{"kind":"circle","option":"Two weeks ago","box":[0.337,0.944,0.358,0.962]},{"kind":"circle","option":"One month ago","box":[0.690,0.944,0.711,0.962]},{"kind":"circle","option":"A few months ago","box":[0.063,0.970,0.084,0.988]},{"kind":"circle","option":"More than a year ago","box":[0.337,0.970,0.358,0.988]}]},
+
+    {"id":"Q12","page":3,"type":"single","text":"On average, how often do you set aside time for private devotional activity?","inputs":[{"kind":"circle","option":"Less than once a week","box":[0.063,0.122,0.084,0.140]},{"kind":"circle","option":"Once a week","box":[0.352,0.122,0.373,0.140]},{"kind":"circle","option":"Two to three times a week","box":[0.666,0.122,0.687,0.140]},{"kind":"circle","option":"Four to six times a week","box":[0.063,0.148,0.084,0.166]},{"kind":"circle","option":"Once a day","box":[0.352,0.148,0.373,0.166]},{"kind":"circle","option":"More than once a day","box":[0.666,0.148,0.687,0.166]}]},
+    {"id":"Q13","page":3,"type":"single","text":"Last week, how many hours did you volunteer to help and serve others?","inputs":[{"kind":"circle","option":"Up to two hours","box":[0.063,0.260,0.084,0.278]},{"kind":"circle","option":"Two to five hours","box":[0.352,0.260,0.373,0.278]},{"kind":"circle","option":"More than five hours","box":[0.666,0.260,0.687,0.278]},{"kind":"circle","option":"None","box":[0.063,0.286,0.084,0.304]}]},
+    {"id":"Q14","page":3,"type":"multiple_with_written_other","text":"Which audio-visual materials have you watched/listened to in the past month?","inputs":[{"kind":"circle","option":"Podcasts","box":[0.063,0.392,0.084,0.410]},{"kind":"circle","option":"Recorded Lectures","box":[0.350,0.392,0.371,0.410]},{"kind":"circle","option":"Content on formed.org","box":[0.668,0.392,0.689,0.410]},{"kind":"circle","option":"Content on Youtube","box":[0.063,0.418,0.084,0.436]},{"kind":"circle","option":"Other","box":[0.063,0.444,0.084,0.462]},{"kind":"text","field":"other_text","box":[0.102,0.438,0.425,0.469]},{"kind":"circle","option":"None","box":[0.668,0.444,0.689,0.462]}]},
+    {"id":"Q15","page":3,"type":"single","text":"In the past twelve months, have you read a book pertaining to the Catholic faith?","inputs":[{"kind":"circle","option":"Yes","box":[0.063,0.558,0.084,0.576]},{"kind":"circle","option":"No","box":[0.350,0.558,0.371,0.576]}]},
+    {"id":"Q16","page":3,"type":"single","text":"In the past month, have you spoken to a non-Catholic about your faith?","inputs":[{"kind":"circle","option":"Yes","box":[0.063,0.668,0.084,0.686]},{"kind":"circle","option":"No","box":[0.350,0.668,0.371,0.686]}]},
+    {"id":"Q17","page":3,"type":"scale_single","text":"My faith is the most important thing in my life","inputs":[{"kind":"circle","option":"1","box":[0.531,0.800,0.553,0.819]},{"kind":"circle","option":"2","box":[0.572,0.800,0.594,0.819]},{"kind":"circle","option":"3","box":[0.613,0.800,0.635,0.819]},{"kind":"circle","option":"4","box":[0.654,0.800,0.676,0.819]},{"kind":"circle","option":"5","box":[0.695,0.800,0.717,0.819]},{"kind":"circle","option":"6","box":[0.736,0.800,0.758,0.819]},{"kind":"circle","option":"7","box":[0.777,0.800,0.799,0.819]},{"kind":"circle","option":"8","box":[0.818,0.800,0.840,0.819]},{"kind":"circle","option":"9","box":[0.859,0.800,0.881,0.819]}]},
+    {"id":"Q18","page":3,"type":"single","text":"How old are you today?","inputs":[{"kind":"circle","option":"16-20 years","box":[0.063,0.934,0.084,0.952]},{"kind":"circle","option":"21-30 years","box":[0.253,0.934,0.274,0.952]},{"kind":"circle","option":"31-40 years","box":[0.462,0.934,0.483,0.952]},{"kind":"circle","option":"41-50 years","box":[0.680,0.934,0.701,0.952]},{"kind":"circle","option":"51-60 years","box":[0.063,0.960,0.084,0.978]},{"kind":"circle","option":"61-70 years","box":[0.253,0.960,0.274,0.978]},{"kind":"circle","option":"71-80 years","box":[0.462,0.960,0.483,0.978]},{"kind":"circle","option":"81+ years","box":[0.680,0.960,0.701,0.978]}]},
+    {"id":"Q19","page":3,"type":"single","text":"What is your gender?","inputs":[{"kind":"circle","option":"Male","box":[0.063,0.990,0.084,1.000]},{"kind":"circle","option":"Female","box":[0.350,0.990,0.371,1.000]}]},
+
+    {"id":"Q20","page":4,"type":"single_with_written_other","text":"Which of the following best describes your household composition?","inputs":[{"kind":"circle","option":"Living alone","box":[0.063,0.090,0.084,0.108]},{"kind":"circle","option":"Multi-generational family","box":[0.063,0.116,0.084,0.134]},{"kind":"circle","option":"Couple, no children at home","box":[0.063,0.142,0.084,0.160]},{"kind":"circle","option":"Other","box":[0.063,0.168,0.084,0.186]},{"kind":"text","field":"other_text","box":[0.102,0.162,0.390,0.192]},{"kind":"circle","option":"Flatting / living with non-family members","box":[0.382,0.090,0.403,0.108]},{"kind":"circle","option":"Family, mainly pre-school or school aged children at home","box":[0.382,0.116,0.403,0.134]},{"kind":"circle","option":"Family, mainly adult children at home","box":[0.382,0.142,0.403,0.160]}]},
+    {"id":"Q21","page":4,"type":"multiple_with_written_other","text":"What is your ethnicity?","inputs":[{"kind":"circle","option":"NZ European","box":[0.063,0.258,0.084,0.276]},{"kind":"circle","option":"Cook Island Maori","box":[0.063,0.284,0.084,0.302]},{"kind":"circle","option":"Chinese","box":[0.063,0.310,0.084,0.328]},{"kind":"circle","option":"Other","box":[0.063,0.336,0.084,0.354]},{"kind":"text","field":"other_text","box":[0.102,0.330,0.590,0.360]},{"kind":"circle","option":"Maori","box":[0.382,0.258,0.403,0.276]},{"kind":"circle","option":"Tongan","box":[0.382,0.284,0.403,0.302]},{"kind":"circle","option":"Indian","box":[0.382,0.310,0.403,0.328]},{"kind":"circle","option":"Samoan","box":[0.668,0.258,0.689,0.276]},{"kind":"circle","option":"Niuean","box":[0.668,0.284,0.689,0.302]},{"kind":"circle","option":"Filipino","box":[0.668,0.310,0.689,0.328]}]},
+    {"id":"Q22","page":4,"type":"single","text":"What is the highest qualification you have attained?","inputs":[{"kind":"circle","option":"Less than high school","box":[0.063,0.446,0.084,0.464]},{"kind":"circle","option":"Trade, technical or vocational training","box":[0.063,0.472,0.084,0.490]},{"kind":"circle","option":"High school graduate/NCEA level 3","box":[0.452,0.446,0.473,0.464]},{"kind":"circle","option":"Tertiary qualification","box":[0.452,0.472,0.473,0.490]}]},
+    {"id":"Q23","page":4,"type":"single","text":"What is your average annual household income before taxes?","inputs":[{"kind":"circle","option":"$40,000 or less","box":[0.063,0.574,0.084,0.592]},{"kind":"circle","option":"$40,001-$80,000","box":[0.350,0.574,0.371,0.592]},{"kind":"circle","option":"$80,001-$100,000","box":[0.668,0.574,0.689,0.592]},{"kind":"circle","option":"$100,001-$150,000","box":[0.063,0.600,0.084,0.618]},{"kind":"circle","option":"$150,001 or more","box":[0.350,0.600,0.371,0.618]},{"kind":"circle","option":"Don't know/Not sure","box":[0.668,0.600,0.689,0.618]}]},
+    {"id":"Q24","page":4,"type":"single_with_written_other","text":"Which best describes the kind of work you do?","inputs":[{"kind":"circle","option":"Full time paid work","box":[0.063,0.704,0.084,0.722]},{"kind":"circle","option":"Part time paid work","box":[0.063,0.730,0.084,0.748]},{"kind":"circle","option":"Caring for children or other family","box":[0.063,0.756,0.084,0.774]},{"kind":"circle","option":"Not currently in paid employment","box":[0.063,0.782,0.084,0.800]},{"kind":"circle","option":"Other","box":[0.063,0.808,0.084,0.826]},{"kind":"text","field":"other_text","box":[0.102,0.802,0.610,0.832]},{"kind":"circle","option":"Student","box":[0.700,0.704,0.721,0.722]},{"kind":"circle","option":"Retired","box":[0.700,0.730,0.721,0.748]}]},
+    {"id":"Q25","page":4,"type":"written","text":"What suburb do you live in?","inputs":[{"kind":"text","field":"suburb","box":[0.150,0.858,0.500,0.895]}]},
+    {"id":"Q26","page":4,"type":"single","text":"What Mass are you at today?","inputs":[{"kind":"circle","option":"Spanish Mass Sat 5pm","box":[0.063,0.918,0.084,0.936]},{"kind":"circle","option":"Saturday 6pm","box":[0.350,0.918,0.371,0.936]},{"kind":"circle","option":"Sunday 8am","box":[0.668,0.918,0.689,0.936]},{"kind":"circle","option":"Sunday 8am","box":[0.063,0.944,0.084,0.962]},{"kind":"circle","option":"Sunday 10am","box":[0.350,0.944,0.371,0.962]},{"kind":"circle","option":"Sunday 11am","box":[0.668,0.944,0.689,0.962]},{"kind":"circle","option":"Samoan Mass 12.30pm","box":[0.063,0.970,0.084,0.988]},{"kind":"circle","option":"Sunday 5pm","box":[0.350,0.970,0.371,0.988]},{"kind":"circle","option":"Sunday 7pm","box":[0.668,0.970,0.689,0.988]}]},
+    {"id":"Q27","page":4,"type":"written","text":"Feedback or comments","inputs":[{"kind":"text","field":"comments","box":[0.060,0.900,0.930,0.995]}]}
+  ],
+  "validation_rules": {
+    "single": "flag ERROR if more than one circle exceeds mark threshold",
+    "multiple": "return all circles exceeding mark threshold, separated by semicolons",
+    "written": "crop rectangle and route to handwriting OCR plus manual review when confidence is low",
+    "barcode": "use page number to select the logical-page template; use survey number to group four logical pages",
+    "registration": "detect four corner squares and top-centre triangle; estimate perspective transform/homography before splitting and reading inputs"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schema_version": "2.1",
+  "source_file": "blank form.pdf",
+  "coordinate_system": {
+    "scope": "full A3 landscape page",
+    "origin": "top_left",
+    "page_corners": {
+      "top_left": [
+        0.0,
+        0.0
+      ],
+      "top_right": [
+        1.0,
+        0.0
+      ],
+      "bottom_left": [
+        0.0,
+        1.0
+      ],
+      "bottom_right": [
+        1.0,
+        1.0
+      ]
+    },
+    "x_axis": "left_to_right",
+    "y_axis": "top_to_bottom",
+    "box_order": [
+      "x1",
+      "y1",
+      "x2",
+      "y2"
+    ],
+    "units": "normalised page coordinates only"
+  },
+  "box_sizing": {
+    "rule": "Each search box is centred on its alignment mark and has three times the mark width and three times the mark height, giving approximately nine times its area."
+  },
+  "sheets": {
+    "sheet_1": {
+      "alignment_search_boxes": {
+        "top_left_square": [
+          0.025098,
+          0.034217,
+          0.059571,
+          0.082977
+        ],
+        "top_right_square": [
+          0.944058,
+          0.035073,
+          0.97853,
+          0.083832
+        ],
+        "bottom_left_square": [
+          0.021772,
+          0.936698,
+          0.056244,
+          0.985458
+        ],
+        "bottom_right_square": [
+          0.94436,
+          0.936698,
+          0.97974,
+          0.985458
+        ],
+        "top_centre_triangle": [
+          0.485939,
+          0.036356,
+          0.518597,
+          0.083832
+        ]
+      }
+    },
+    "sheet_2": {
+      "alignment_search_boxes": {
+        "top_left_square": [
+          0.012096,
+          0.031223,
+          0.045661,
+          0.079983
+        ],
+        "top_right_square": [
+          0.935894,
+          0.033362,
+          0.970366,
+          0.082121
+        ],
+        "bottom_left_square": [
+          0.009072,
+          0.935843,
+          0.042637,
+          0.984602
+        ],
+        "bottom_right_square": [
+          0.935289,
+          0.938837,
+          0.969761,
+          0.986313
+        ],
+        "top_centre_triangle": [
+          0.472634,
+          0.034645,
+          0.505292,
+          0.080838
+        ]
+      }
+    }
+  }
+}

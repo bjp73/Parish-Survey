@@ -1,0 +1,208 @@
+{
+  "schema_version": "2.0",
+  "source_file": "blank form.pdf",
+  "coordinate_system": {
+    "scope": "full A3 landscape rendered page",
+    "origin": "top_left",
+    "x_axis": "left_to_right",
+    "y_axis": "top_to_bottom",
+    "box_order": [
+      "x1",
+      "y1",
+      "x2",
+      "y2"
+    ],
+    "normalisation": "x divided by page width; y divided by page height",
+    "reference_render_pixels": {
+      "width": 3307,
+      "height": 2338,
+      "dpi": 200
+    }
+  },
+  "sheets": {
+    "sheet_1": {
+      "page_corners_normalised": {
+        "top_left": [
+          0.0,
+          0.0
+        ],
+        "top_right": [
+          1.0,
+          0.0
+        ],
+        "bottom_right": [
+          1.0,
+          1.0
+        ],
+        "bottom_left": [
+          0.0,
+          1.0
+        ]
+      },
+      "alignment_marks": {
+        "top_left_square": {
+          "box_pixels_200dpi": [
+            121,
+            118,
+            159,
+            156
+          ],
+          "box_normalised": [
+            0.036589,
+            0.05047,
+            0.04808,
+            0.066724
+          ]
+        },
+        "top_right_square": {
+          "box_pixels_200dpi": [
+            3160,
+            120,
+            3198,
+            158
+          ],
+          "box_normalised": [
+            0.955549,
+            0.051326,
+            0.96704,
+            0.067579
+          ]
+        },
+        "bottom_left_square": {
+          "box_pixels_200dpi": [
+            110,
+            2228,
+            148,
+            2266
+          ],
+          "box_normalised": [
+            0.033263,
+            0.952951,
+            0.044754,
+            0.969204
+          ]
+        },
+        "bottom_right_square": {
+          "box_pixels_200dpi": [
+            3162,
+            2228,
+            3201,
+            2266
+          ],
+          "box_normalised": [
+            0.956154,
+            0.952951,
+            0.967947,
+            0.969204
+          ]
+        },
+        "top_centre_triangle": {
+          "box_pixels_200dpi": [
+            1643,
+            122,
+            1679,
+            159
+          ],
+          "box_normalised": [
+            0.496825,
+            0.052181,
+            0.507711,
+            0.068007
+          ]
+        }
+      }
+    },
+    "sheet_2": {
+      "page_corners_normalised": {
+        "top_left": [
+          0.0,
+          0.0
+        ],
+        "top_right": [
+          1.0,
+          0.0
+        ],
+        "bottom_right": [
+          1.0,
+          1.0
+        ],
+        "bottom_left": [
+          0.0,
+          1.0
+        ]
+      },
+      "alignment_marks": {
+        "top_left_square": {
+          "box_pixels_200dpi": [
+            77,
+            111,
+            114,
+            149
+          ],
+          "box_normalised": [
+            0.023284,
+            0.047476,
+            0.034472,
+            0.06373
+          ]
+        },
+        "top_right_square": {
+          "box_pixels_200dpi": [
+            3133,
+            116,
+            3171,
+            154
+          ],
+          "box_normalised": [
+            0.947384,
+            0.049615,
+            0.958875,
+            0.065868
+          ]
+        },
+        "bottom_left_square": {
+          "box_pixels_200dpi": [
+            67,
+            2226,
+            104,
+            2264
+          ],
+          "box_normalised": [
+            0.02026,
+            0.952096,
+            0.031448,
+            0.968349
+          ]
+        },
+        "bottom_right_square": {
+          "box_pixels_200dpi": [
+            3131,
+            2232,
+            3169,
+            2269
+          ],
+          "box_normalised": [
+            0.94678,
+            0.954662,
+            0.95827,
+            0.970488
+          ]
+        },
+        "top_centre_triangle": {
+          "box_pixels_200dpi": [
+            1599,
+            117,
+            1635,
+            153
+          ],
+          "box_normalised": [
+            0.48352,
+            0.050043,
+            0.494406,
+            0.065441
+          ]
+        }
+      }
+    }
+  }
+}

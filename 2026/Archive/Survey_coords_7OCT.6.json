@@ -1,0 +1,2421 @@
+{
+    "coordinate_system": {
+        "Page Coordinate": {
+            "scope": "full A3 landscape page",
+            "origin": "top_left",
+            "page_corners": {
+                "top_left": [
+                    0.0,
+                    0.0
+                ],
+                "top_right": [
+                    1.0,
+                    0.0
+                ],
+                "bottom_left": [
+                    0.0,
+                    1.0
+                ],
+                "bottom_right": [
+                    1.0,
+                    1.0
+                ]
+            },
+            "x_axis": "left_to_right",
+            "y_axis": "top_to_bottom",
+            "box_order": [
+                "x1",
+                "y1",
+                "x2",
+                "y2"
+            ],
+            "alignment_search_boxes": {
+				"top_left_square": [
+					0.0067,
+					0.0179,
+					0.055,
+					0.0667
+				],
+				"top_right_square": [
+					0.9372,
+					0.0179,
+					0.9854,
+					0.0667
+				],
+				"bottom_left_square": [
+					0.0067,
+					0.9269,
+					0.055,
+					0.9758
+				],
+				"bottom_right_square": [
+					0.9372,
+					0.9269,
+					0.9854,
+					0.9758
+				],
+				"top_centre_triangle": [
+					0.4794,
+					0.025406,
+					0.5226,
+					0.071599
+				],
+				"bottom_centre_triangle": [
+					0.4794,
+					0.936698,
+					0.5226,
+					0.98546
+				]
+			}
+        },
+        "Alignment Coordinate": {
+            "scope": "Inside corners of the four alignment squares",
+            "origin": "top_left",
+            "corners": {
+                "top_left": [
+                    0,
+                    0
+                ],
+                "top_right": [
+                    1,
+                    0
+                ],
+                "bottom_left": [
+                    0,
+                    1
+                ],
+                "bottom_right": [
+                    1,
+                    1
+                ]
+            },
+            "box_order": [
+                "x1",
+                "y1",
+                "x2",
+                "y2"
+            ],
+            "geometry": "sheet-specific projective transform"
+        }
+    },
+    "questions": [
+        {
+            "id": "Q1",
+			"page": 1,
+            "type": "single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "Less than 2 years",
+                    "alignment_box": [
+                        0.539839,
+                        0.447684,
+                        0.552501,
+                        0.466047
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "Between 2-10 years",
+                    "alignment_box": [
+                        0.53989,
+                        0.486326,
+                        0.55255,
+                        0.504682
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "Between 11-20 years",
+                    "alignment_box": [
+                        0.702199,
+                        0.485762,
+                        0.71485,
+                        0.504121
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "Between 20-30 years",
+                    "alignment_box": [
+                        0.539917,
+                        0.506608,
+                        0.552576,
+                        0.524961
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "More than 30 years",
+                    "alignment_box": [
+                        0.702212,
+                        0.50653,
+                        0.714862,
+                        0.524886
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 6,
+                    "label": "I am a visitor / do not usually attend Mass at this Parish",
+                    "alignment_box": [
+                        0.539975,
+                        0.550539,
+                        0.552631,
+                        0.568885
+                    ]
+                }
+            ],
+            "text": "How long have you been coming to Mass at Holy Family Parish?"
+        },
+        {
+            "id": "Q2",
+			"page": 1,
+            "type": "single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "I have started attending Catholic Mass for the first time recently",
+                    "alignment_box": [
+                        0.539095,
+                        0.639318,
+                        0.551747,
+                        0.657648
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "I have begun attending Catholic Mass again after not attending for some time",
+                    "alignment_box": [
+                        0.539124,
+                        0.661019,
+                        0.551775,
+                        0.679346
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "I come from Christ the King Church or Our Lady of the Assumption church after they closed",
+                    "alignment_box": [
+                        0.539153,
+                        0.682717,
+                        0.551802,
+                        0.70104
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "I have come from another Catholic parish in Christchurch or elsewhere in New Zealand",
+                    "alignment_box": [
+                        0.538851,
+                        0.705857,
+                        0.551499,
+                        0.724176
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "I have come from a Catholic parish overseas",
+                    "alignment_box": [
+                        0.539211,
+                        0.727064,
+                        0.551858,
+                        0.745379
+                    ]
+                }
+            ],
+            "text": "If you have been attending Holy Family Parish for less than 2 years, which statement best describes you?"
+        },
+        {
+            "id": "Q3",
+			"page": 1,
+            "type": "multiple_with_written_other",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "Prayer or bible study group",
+                    "alignment_box": [
+                        0.539638,
+                        0.798368,
+                        0.552281,
+                        0.816672
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "Fellowship or leisure group",
+                    "alignment_box": [
+                        0.539667,
+                        0.82004,
+                        0.552309,
+                        0.83834
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "Faith formation workshop or programme",
+                    "alignment_box": [
+                        0.539695,
+                        0.841227,
+                        0.552336,
+                        0.859522
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "Service to the parish",
+                    "alignment_box": [
+                        0.539723,
+                        0.862409,
+                        0.552363,
+                        0.880701
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "Preparing for or serving at Mass",
+                    "alignment_box": [
+                        0.539751,
+                        0.883587,
+                        0.552389,
+                        0.901876
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 6,
+                    "label": "Community service, social justice or welfare activity",
+                    "alignment_box": [
+                        0.539447,
+                        0.904762,
+                        0.552084,
+                        0.923047
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 7,
+                    "label": "Other",
+                    "alignment_box": [
+                        0.539476,
+                        0.926414,
+                        0.552112,
+                        0.944695
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 8,
+                    "label": "None of the above",
+                    "alignment_box": [
+                        0.539508,
+                        0.950467,
+                        0.552142,
+                        0.968744
+                    ]
+                },
+                {
+                    "kind": "written",
+                    "label": "Other",
+                    "alignment_box": [
+                        0.637389,
+                        0.91435,
+                        0.986104,
+                        0.955273
+                    ]
+                }
+            ],
+            "text": "In the past 12 months what types of Parish activities have you been involved in?"
+        },
+        {
+            "id": "Q4",
+            "page": 2,
+            "type": "single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "None",
+                    "alignment_box": [
+                        0.00512,
+                        0.045329,
+                        0.017771,
+                        0.063698
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "$1-$5",
+                    "alignment_box": [
+                        0.166145,
+                        0.04542,
+                        0.178786,
+                        0.063788
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "$6-$10",
+                    "alignment_box": [
+                        0.334763,
+                        0.045492,
+                        0.347395,
+                        0.063858
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "$11-$20",
+                    "alignment_box": [
+                        0.005195,
+                        0.068011,
+                        0.017845,
+                        0.086378
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "$21-$50",
+                    "alignment_box": [
+                        0.166211,
+                        0.068582,
+                        0.178852,
+                        0.086948
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 6,
+                    "label": "More than $50",
+                    "alignment_box": [
+                        0.33482,
+                        0.068652,
+                        0.34745,
+                        0.087017
+                    ]
+                }
+            ],
+            "text": "Last week, how much did you give to Christchurch West Parish?"
+        },
+        {
+            "id": "Q5a",
+            "page": 2,
+            "type": "scale_single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "1",
+                    "alignment_box": [
+                        0.260278,
+                        0.190382,
+                        0.274571,
+                        0.21115
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "2",
+                    "alignment_box": [
+                        0.280809,
+                        0.19033,
+                        0.2951,
+                        0.211099
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "3",
+                    "alignment_box": [
+                        0.300677,
+                        0.19028,
+                        0.314967,
+                        0.211049
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "4",
+                    "alignment_box": [
+                        0.321207,
+                        0.190229,
+                        0.335495,
+                        0.210997
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "5",
+                    "alignment_box": [
+                        0.341736,
+                        0.190178,
+                        0.356023,
+                        0.210946
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 6,
+                    "label": "6",
+                    "alignment_box": [
+                        0.361934,
+                        0.190127,
+                        0.37622,
+                        0.210895
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 7,
+                    "label": "7",
+                    "alignment_box": [
+                        0.3818,
+                        0.190078,
+                        0.396085,
+                        0.210845
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 8,
+                    "label": "8",
+                    "alignment_box": [
+                        0.401998,
+                        0.190027,
+                        0.41628,
+                        0.210794
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 9,
+                    "label": "9",
+                    "alignment_box": [
+                        0.419877,
+                        0.189982,
+                        0.434158,
+                        0.210749
+                    ]
+                }
+            ],
+            "text": "I have a good friend in this Parish"
+        },
+        {
+            "id": "Q5b",
+            "page": 2,
+            "type": "scale_single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "1",
+                    "alignment_box": [
+                        0.260349,
+                        0.217382,
+                        0.27464,
+                        0.238148
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "2",
+                    "alignment_box": [
+                        0.280878,
+                        0.21733,
+                        0.295168,
+                        0.238096
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "3",
+                    "alignment_box": [
+                        0.300413,
+                        0.217281,
+                        0.314702,
+                        0.238047
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "4",
+                    "alignment_box": [
+                        0.321273,
+                        0.217229,
+                        0.33556,
+                        0.237994
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "5",
+                    "alignment_box": [
+                        0.341801,
+                        0.217177,
+                        0.356087,
+                        0.237942
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 6,
+                    "label": "6",
+                    "alignment_box": [
+                        0.361997,
+                        0.217127,
+                        0.376282,
+                        0.237891
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 7,
+                    "label": "7",
+                    "alignment_box": [
+                        0.381862,
+                        0.217077,
+                        0.396146,
+                        0.237841
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 8,
+                    "label": "8",
+                    "alignment_box": [
+                        0.402058,
+                        0.217026,
+                        0.41634,
+                        0.23779
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 9,
+                    "label": "9",
+                    "alignment_box": [
+                        0.419936,
+                        0.216981,
+                        0.434217,
+                        0.237745
+                    ]
+                }
+            ],
+            "text": "I know other parishioners who I can chat with after Mass"
+        },
+        {
+            "id": "Q5c",
+            "page": 2,
+            "type": "scale_single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "1",
+                    "alignment_box": [
+                        0.260422,
+                        0.245343,
+                        0.274713,
+                        0.266106
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "2",
+                    "alignment_box": [
+                        0.28095,
+                        0.245291,
+                        0.295239,
+                        0.266054
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "3",
+                    "alignment_box": [
+                        0.300484,
+                        0.245242,
+                        0.314771,
+                        0.266004
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "4",
+                    "alignment_box": [
+                        0.321342,
+                        0.245189,
+                        0.335628,
+                        0.265951
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "5",
+                    "alignment_box": [
+                        0.341868,
+                        0.245137,
+                        0.356153,
+                        0.265899
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 6,
+                    "label": "6",
+                    "alignment_box": [
+                        0.362063,
+                        0.245086,
+                        0.376347,
+                        0.265848
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 7,
+                    "label": "7",
+                    "alignment_box": [
+                        0.381927,
+                        0.245036,
+                        0.396209,
+                        0.265798
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 8,
+                    "label": "8",
+                    "alignment_box": [
+                        0.402121,
+                        0.244985,
+                        0.416402,
+                        0.265746
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 9,
+                    "label": "9",
+                    "alignment_box": [
+                        0.419997,
+                        0.24494,
+                        0.434277,
+                        0.265701
+                    ]
+                }
+            ],
+            "text": "I consider the people who I see at parish activities friends"
+        },
+        {
+            "id": "Q6",
+            "page": 2,
+            "type": "single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "Yes",
+                    "alignment_box": [
+                        0.001711,
+                        0.31734,
+                        0.014353,
+                        0.335684
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "No",
+                    "alignment_box": [
+                        0.148723,
+                        0.319854,
+                        0.161356,
+                        0.338197
+                    ]
+                }
+            ],
+            "text": "In the past month, have you invited someone to Mass or a parish activity?"
+        },
+        {
+            "id": "Q7",
+            "page": 2,
+            "type": "single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "Yes",
+                    "alignment_box": [
+                        0.001616,
+                        0.388652,
+                        0.014255,
+                        0.40699
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "No",
+                    "alignment_box": [
+                        0.147932,
+                        0.389235,
+                        0.160563,
+                        0.407572
+                    ]
+                }
+            ],
+            "text": "In the past month, has someone in the parish asked you about YOUR spiritual wellbeing?"
+        },
+        {
+            "id": "Q8",
+            "page": 2,
+            "type": "single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "Yes",
+                    "alignment_box": [
+                        0.001831,
+                        0.453675,
+                        0.014468,
+                        0.472007
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "No",
+                    "alignment_box": [
+                        0.147788,
+                        0.453292,
+                        0.160417,
+                        0.471623
+                    ]
+                }
+            ],
+            "text": "In the past month, have you asked someone in the parish about THEIR spiritual wellbeing?"
+        },
+        {
+            "id": "Q9",
+            "page": 2,
+            "type": "multiple",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "Baptism",
+                    "alignment_box": [
+                        0.003296,
+                        0.596646,
+                        0.015928,
+                        0.614965
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "Reconciliation/Confession",
+                    "alignment_box": [
+                        0.149865,
+                        0.598177,
+                        0.162489,
+                        0.616494
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "First Communion",
+                    "alignment_box": [
+                        0.345363,
+                        0.598613,
+                        0.357975,
+                        0.616928
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "Confirmation",
+                    "alignment_box": [
+                        0.00337,
+                        0.619262,
+                        0.016002,
+                        0.637579
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "Marriage",
+                    "alignment_box": [
+                        0.149596,
+                        0.619348,
+                        0.162219,
+                        0.637664
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 6,
+                    "label": "Anointing of the Sick",
+                    "alignment_box": [
+                        0.345415,
+                        0.620262,
+                        0.358026,
+                        0.638576
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 7,
+                    "label": "None of the above",
+                    "alignment_box": [
+                        0.003448,
+                        0.642837,
+                        0.016079,
+                        0.661152
+                    ]
+                }
+            ],
+            "text": "Which, if any, of the following Sacraments have you received?"
+        },
+        {
+            "id": "Q10a",
+            "page": 2,
+            "type": "scale_single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "1",
+                    "alignment_box": [
+                        0.255863,
+                        0.777271,
+                        0.270134,
+                        0.79798
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "2",
+                    "alignment_box": [
+                        0.276364,
+                        0.777695,
+                        0.290633,
+                        0.798403
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "3",
+                    "alignment_box": [
+                        0.29587,
+                        0.777641,
+                        0.310138,
+                        0.798349
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "4",
+                    "alignment_box": [
+                        0.316699,
+                        0.777583,
+                        0.330965,
+                        0.798291
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "5",
+                    "alignment_box": [
+                        0.336866,
+                        0.777527,
+                        0.351131,
+                        0.798235
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 6,
+                    "label": "6",
+                    "alignment_box": [
+                        0.357363,
+                        0.77747,
+                        0.371627,
+                        0.798178
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 7,
+                    "label": "7",
+                    "alignment_box": [
+                        0.377529,
+                        0.777414,
+                        0.391792,
+                        0.798121
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 8,
+                    "label": "8",
+                    "alignment_box": [
+                        0.397364,
+                        0.777359,
+                        0.411625,
+                        0.798066
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 9,
+                    "label": "9",
+                    "alignment_box": [
+                        0.415216,
+                        0.77731,
+                        0.429476,
+                        0.798016
+                    ]
+                }
+            ],
+            "text": "The Catholic faith shapes how I live my life"
+        },
+        {
+            "id": "Q10b",
+            "page": 2,
+            "type": "scale_single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "1",
+                    "alignment_box": [
+                        0.255934,
+                        0.804188,
+                        0.270204,
+                        0.824894
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "2",
+                    "alignment_box": [
+                        0.276432,
+                        0.804131,
+                        0.2907,
+                        0.824836
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "3",
+                    "alignment_box": [
+                        0.295937,
+                        0.804077,
+                        0.310204,
+                        0.824782
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "4",
+                    "alignment_box": [
+                        0.316433,
+                        0.80402,
+                        0.330699,
+                        0.824724
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "5",
+                    "alignment_box": [
+                        0.33726,
+                        0.803962,
+                        0.351524,
+                        0.824666
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 6,
+                    "label": "6",
+                    "alignment_box": [
+                        0.357425,
+                        0.803905,
+                        0.371688,
+                        0.82461
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 7,
+                    "label": "7",
+                    "alignment_box": [
+                        0.37759,
+                        0.803849,
+                        0.391852,
+                        0.824553
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 8,
+                    "label": "8",
+                    "alignment_box": [
+                        0.397424,
+                        0.803794,
+                        0.411684,
+                        0.824498
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 9,
+                    "label": "9",
+                    "alignment_box": [
+                        0.415274,
+                        0.803744,
+                        0.429533,
+                        0.824448
+                    ]
+                }
+            ],
+            "text": "It is important to me to observe Catholic practices"
+        },
+        {
+            "id": "Q10c",
+            "page": 2,
+            "type": "scale_single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "1",
+                    "alignment_box": [
+                        0.25568,
+                        0.833024,
+                        0.269948,
+                        0.853727
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "2",
+                    "alignment_box": [
+                        0.276175,
+                        0.832967,
+                        0.290443,
+                        0.853669
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "3",
+                    "alignment_box": [
+                        0.295679,
+                        0.832912,
+                        0.309945,
+                        0.853614
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "4",
+                    "alignment_box": [
+                        0.316505,
+                        0.832854,
+                        0.330769,
+                        0.853556
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "5",
+                    "alignment_box": [
+                        0.336999,
+                        0.832797,
+                        0.351262,
+                        0.853498
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 6,
+                    "label": "6",
+                    "alignment_box": [
+                        0.357494,
+                        0.832739,
+                        0.371755,
+                        0.853441
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 7,
+                    "label": "7",
+                    "alignment_box": [
+                        0.377326,
+                        0.832684,
+                        0.391587,
+                        0.853385
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 8,
+                    "label": "8",
+                    "alignment_box": [
+                        0.397489,
+                        0.832627,
+                        0.411748,
+                        0.853328
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 9,
+                    "label": "9",
+                    "alignment_box": [
+                        0.415669,
+                        0.832576,
+                        0.429926,
+                        0.853277
+                    ]
+                }
+            ],
+            "text": "Accepting all Catholic teaching is important to me"
+        },
+        {
+            "id": "Q11",
+            "page": 2,
+            "type": "single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "Last Sunday",
+                    "alignment_box": [
+                        0.003413,
+                        0.932716,
+                        0.016035,
+                        0.951004
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "Two weeks ago",
+                    "alignment_box": [
+                        0.157118,
+                        0.932278,
+                        0.16973,
+                        0.950565
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "One month ago",
+                    "alignment_box": [
+                        0.30287,
+                        0.931863,
+                        0.315473,
+                        0.950149
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "A few months ago",
+                    "alignment_box": [
+                        0.003488,
+                        0.955291,
+                        0.016109,
+                        0.973577
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "More than a year ago",
+                    "alignment_box": [
+                        0.157184,
+                        0.954852,
+                        0.169795,
+                        0.973137
+                    ]
+                }
+            ],
+            "text": "When did you last attend Sunday Mass?"
+        },
+        {
+            "id": "Q12",
+            "page": 3,
+            "type": "single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "Less than once a week",
+                    "alignment_box": [
+                        0.530221,
+                        0.066245,
+                        0.542839,
+                        0.084608
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "Once a week",
+                    "alignment_box": [
+                        0.690493,
+                        0.065371,
+                        0.703102,
+                        0.083732
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "Two to three times a week",
+                    "alignment_box": [
+                        0.831539,
+                        0.065026,
+                        0.84414,
+                        0.083386
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "Four to six times a week",
+                    "alignment_box": [
+                        0.530267,
+                        0.090365,
+                        0.542885,
+                        0.108726
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "Once a day",
+                    "alignment_box": [
+                        0.690857,
+                        0.088042,
+                        0.703466,
+                        0.106401
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 6,
+                    "label": "More than once a day",
+                    "alignment_box": [
+                        0.831236,
+                        0.089626,
+                        0.843835,
+                        0.107984
+                    ]
+                }
+            ],
+            "text": "On average, how often do you set aside time for private devotional activity?"
+        },
+        {
+            "id": "Q13",
+            "page": 3,
+            "type": "single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "Up to two hours",
+                    "alignment_box": [
+                        0.532466,
+                        0.20224,
+                        0.54508,
+                        0.22059
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "Two to five hours",
+                    "alignment_box": [
+                        0.689039,
+                        0.201365,
+                        0.701643,
+                        0.219714
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "More than five hours",
+                    "alignment_box": [
+                        0.830368,
+                        0.202457,
+                        0.842964,
+                        0.220804
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "None",
+                    "alignment_box": [
+                        0.532181,
+                        0.226344,
+                        0.544794,
+                        0.244692
+                    ]
+                }
+            ],
+            "text": "Last week, how many hours did you volunteer to help and serve others?"
+        },
+        {
+            "id": "Q14",
+            "page": 3,
+            "type": "multiple_with_written_other",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "Podcasts",
+                    "alignment_box": [
+                        0.531057,
+                        0.331883,
+                        0.543667,
+                        0.350222
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "Recorded Lectures",
+                    "alignment_box": [
+                        0.68791,
+                        0.332444,
+                        0.70051,
+                        0.350781
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "Content on formed.org",
+                    "alignment_box": [
+                        0.83018,
+                        0.331597,
+                        0.842772,
+                        0.349933
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "Content on YouTube",
+                    "alignment_box": [
+                        0.530774,
+                        0.356934,
+                        0.543383,
+                        0.37527
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "Other",
+                    "alignment_box": [
+                        0.530486,
+                        0.379573,
+                        0.543094,
+                        0.397908
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 6,
+                    "label": "None",
+                    "alignment_box": [
+                        0.830233,
+                        0.378797,
+                        0.842823,
+                        0.397129
+                    ]
+                },
+                {
+                    "kind": "written",
+                    "label": "Other",
+                    "alignment_box": [
+                        0.628726,
+                        0.359628,
+                        0.810692,
+                        0.401505
+                    ]
+                }
+            ],
+            "text": "Which audio-visual materials have you watched/listened to in the past month?"
+        },
+        {
+            "id": "Q15",
+            "page": 3,
+            "type": "single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "Yes",
+                    "alignment_box": [
+                        0.530016,
+                        0.480212,
+                        0.542621,
+                        0.498537
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "No",
+                    "alignment_box": [
+                        0.68846,
+                        0.479794,
+                        0.701055,
+                        0.498118
+                    ]
+                }
+            ],
+            "text": "In the past twelve months, have you read a book pertaining to the Catholic faith?"
+        },
+        {
+            "id": "Q16",
+            "page": 3,
+            "type": "single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "Yes",
+                    "alignment_box": [
+                        0.530498,
+                        0.559142,
+                        0.5431,
+                        0.57746
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "No",
+                    "alignment_box": [
+                        0.688908,
+                        0.558718,
+                        0.7015,
+                        0.577035
+                    ]
+                }
+            ],
+            "text": "In the past month, have you spoken to a non-Catholic about your faith?"
+        },
+        {
+            "id": "Q17",
+            "page": 3,
+            "type": "scale_single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "1",
+                    "alignment_box": [
+                        0.775047,
+                        0.689306,
+                        0.789286,
+                        0.710018
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "2",
+                    "alignment_box": [
+                        0.795871,
+                        0.689249,
+                        0.810108,
+                        0.709961
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "3",
+                    "alignment_box": [
+                        0.815373,
+                        0.689196,
+                        0.829609,
+                        0.709908
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "4",
+                    "alignment_box": [
+                        0.835866,
+                        0.68914,
+                        0.8501,
+                        0.709851
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "5",
+                    "alignment_box": [
+                        0.856358,
+                        0.689084,
+                        0.870591,
+                        0.709795
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 6,
+                    "label": "6",
+                    "alignment_box": [
+                        0.87652,
+                        0.689029,
+                        0.890751,
+                        0.70974
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 7,
+                    "label": "7",
+                    "alignment_box": [
+                        0.897011,
+                        0.688973,
+                        0.911241,
+                        0.709684
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 8,
+                    "label": "8",
+                    "alignment_box": [
+                        0.917833,
+                        0.688916,
+                        0.932062,
+                        0.709626
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 9,
+                    "label": "9",
+                    "alignment_box": [
+                        0.93601,
+                        0.688866,
+                        0.950238,
+                        0.709576
+                    ]
+                }
+            ],
+            "text": "My faith is the most important thing in my life"
+        },
+        {
+            "id": "Q18",
+            "page": 3,
+            "type": "single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "16-20 years",
+                    "alignment_box": [
+                        0.532052,
+                        0.854836,
+                        0.544644,
+                        0.873127
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "21-30 years",
+                    "alignment_box": [
+                        0.630529,
+                        0.854559,
+                        0.643116,
+                        0.87285
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "31-40 years",
+                    "alignment_box": [
+                        0.742544,
+                        0.854244,
+                        0.755124,
+                        0.872534
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "41-50 years",
+                    "alignment_box": [
+                        0.857191,
+                        0.853922,
+                        0.869763,
+                        0.87221
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "51-60 years",
+                    "alignment_box": [
+                        0.532423,
+                        0.875973,
+                        0.545014,
+                        0.894262
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 6,
+                    "label": "61-70 years",
+                    "alignment_box": [
+                        0.630894,
+                        0.875695,
+                        0.64348,
+                        0.893984
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 7,
+                    "label": "71-80 years",
+                    "alignment_box": [
+                        0.742573,
+                        0.87538,
+                        0.755152,
+                        0.893667
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 8,
+                    "label": "81+ years",
+                    "alignment_box": [
+                        0.857213,
+                        0.875057,
+                        0.869784,
+                        0.893343
+                    ]
+                }
+            ],
+            "text": "How old are you today?"
+        },
+        {
+            "id": "Q19",
+            "page": 3,
+            "type": "single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "Male",
+                    "alignment_box": [
+                        0.531564,
+                        0.945618,
+                        0.544153,
+                        0.963901
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "Female",
+                    "alignment_box": [
+                        0.688491,
+                        0.94517,
+                        0.70107,
+                        0.963451
+                    ]
+                }
+            ],
+            "text": "What is your gender?"
+        },
+        {
+            "id": "Q20",
+			"page": 4,
+            "type": "single_with_written_other",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "Living alone",
+                    "alignment_box": [
+                        0.006495,
+                        0.04699,
+                        0.019209,
+                        0.065412
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "Flatting / living with non-family members",
+                    "alignment_box": [
+                        0.174608,
+                        0.047804,
+                        0.187312,
+                        0.066229
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "Multi-generational family",
+                    "alignment_box": [
+                        0.006572,
+                        0.068308,
+                        0.019285,
+                        0.086726
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "Family, mainly pre-school or school aged children at home",
+                    "alignment_box": [
+                        0.174665,
+                        0.067671,
+                        0.187368,
+                        0.086093
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "Couple, no children at home",
+                    "alignment_box": [
+                        0.006644,
+                        0.088168,
+                        0.019356,
+                        0.106583
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 6,
+                    "label": "Family, mainly adult children at home",
+                    "alignment_box": [
+                        0.174723,
+                        0.087535,
+                        0.187425,
+                        0.105953
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 7,
+                    "label": "Other",
+                    "alignment_box": [
+                        0.006713,
+                        0.107056,
+                        0.019423,
+                        0.125468
+                    ]
+                },
+                {
+                    "kind": "written",
+                    "label": "Other",
+                    "alignment_box": [
+                        0.093866,
+                        0.096018,
+                        0.45683,
+                        0.132657
+                    ]
+                }
+            ],
+            "text": "Which of the following best describes your household composition?"
+        },
+        {
+            "id": "Q21",
+			"page": 4,
+            "type": "multiple_with_written_other",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "NZ European",
+                    "alignment_box": [
+                        0.00669,
+                        0.192742,
+                        0.019396,
+                        0.211139
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "Maori",
+                    "alignment_box": [
+                        0.174694,
+                        0.19261,
+                        0.18739,
+                        0.21101
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "Samoan",
+                    "alignment_box": [
+                        0.314463,
+                        0.192985,
+                        0.327152,
+                        0.211387
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "Cook Island Maori",
+                    "alignment_box": [
+                        0.006762,
+                        0.212581,
+                        0.019466,
+                        0.230974
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "Tongan",
+                    "alignment_box": [
+                        0.17475,
+                        0.211968,
+                        0.187445,
+                        0.230365
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 6,
+                    "label": "Niuean",
+                    "alignment_box": [
+                        0.314175,
+                        0.212346,
+                        0.326862,
+                        0.230745
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 7,
+                    "label": "Chinese",
+                    "alignment_box": [
+                        0.006834,
+                        0.232416,
+                        0.019537,
+                        0.250806
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 8,
+                    "label": "Indian",
+                    "alignment_box": [
+                        0.174808,
+                        0.231807,
+                        0.187502,
+                        0.250201
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 9,
+                    "label": "Filipino",
+                    "alignment_box": [
+                        0.31422,
+                        0.232187,
+                        0.326907,
+                        0.250583
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 10,
+                    "label": "Other",
+                    "alignment_box": [
+                        0.00669,
+                        0.25226,
+                        0.019396,
+                        0.27065
+                  ]
+                },
+                {
+                    "kind": "written",
+                    "label": "Other, please specify",
+                    "alignment_box": [
+                        0.094337,
+                        0.241285,
+                        0.457078,
+                        0.280246
+                    ]
+                }
+            ],
+            "text": "What is your ethnicity?"
+        },
+        {
+            "id": "Q22",
+			"page": 4,
+            "type": "single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "Less than high school",
+                    "alignment_box": [
+                        0.009554,
+                        0.341208,
+                        0.022252,
+                        0.35958
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "High school graduate/NCEA level 3",
+                    "alignment_box": [
+                        0.205388,
+                        0.342533,
+                        0.218075,
+                        0.360908
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "Trade, technical or vocational training",
+                    "alignment_box": [
+                        0.009311,
+                        0.365854,
+                        0.022007,
+                        0.384221
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "Tertiary qualification",
+                    "alignment_box": [
+                        0.20512,
+                        0.365733,
+                        0.217805,
+                        0.384104
+                    ]
+                }
+            ],
+            "text": "What is the highest qualification you have attained?"
+        },
+        {
+            "id": "Q23",
+			"page": 4,
+            "type": "single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "$40,000 or less",
+                    "alignment_box": [
+                        0.007618,
+                        0.448935,
+                        0.020309,
+                        0.467288
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "$40,001-$80,000",
+                    "alignment_box": [
+                        0.165465,
+                        0.448851,
+                        0.178148,
+                        0.467207
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "$80,001-$100,000",
+                    "alignment_box": [
+                        0.323694,
+                        0.449249,
+                        0.336369,
+                        0.467608
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "$100,001-$150,000",
+                    "alignment_box": [
+                        0.009368,
+                        0.473557,
+                        0.022058,
+                        0.491906
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "$150,001 or more",
+                    "alignment_box": [
+                        0.165206,
+                        0.47396,
+                        0.177888,
+                        0.492312
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 6,
+                    "label": "Don't know/Not sure",
+                    "alignment_box": [
+                        0.323749,
+                        0.473396,
+                        0.336422,
+                        0.491751
+                    ]
+                }
+            ],
+            "text": "What is your average annual household income before taxes?"
+        },
+        {
+            "id": "Q24",
+			"page": 4,
+            "type": "single_with_written_other",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "Full time paid work",
+                    "alignment_box": [
+                        0.009635,
+                        0.547394,
+                        0.022321,
+                        0.56573
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "Student",
+                    "alignment_box": [
+                        0.357479,
+                        0.546276,
+                        0.370146,
+                        0.564619
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "Part time paid work",
+                    "alignment_box": [
+                        0.00971,
+                        0.568137,
+                        0.022394,
+                        0.58647
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "Retired",
+                    "alignment_box": [
+                        0.357193,
+                        0.567991,
+                        0.369858,
+                        0.58633
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "Caring for children or other family",
+                    "alignment_box": [
+                        0.009784,
+                        0.588876,
+                        0.022468,
+                        0.607205
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 6,
+                    "label": "Not currently in paid employment",
+                    "alignment_box": [
+                        0.009859,
+                        0.609612,
+                        0.022542,
+                        0.627937
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 7,
+                    "label": "Other",
+                    "alignment_box": [
+                        0.009936,
+                        0.630826,
+                        0.022617,
+                        0.649148
+                    ]
+                },
+                {
+                    "kind": "written",
+                    "label": "Other",
+                    "alignment_box": [
+                        0.095558,
+                        0.618129,
+                        0.45771,
+                        0.656831
+                    ]
+                }
+            ],
+            "text": "Which best describes the kind of work you do?"
+        },
+        {
+            "id": "Q25",
+			"page": 4,
+            "type": "written",
+            "inputs": [
+                {
+                    "kind": "written",
+                    "label": "What suburb do you live in?",
+                    "alignment_box": [
+                        0.034332,
+                        0.675998,
+                        0.452849,
+                        0.729127
+                    ]
+                }
+            ],
+            "text": "What suburb do you live in?"
+        },
+        {
+            "id": "Q26",
+			"page": 4,
+            "type": "single",
+            "inputs": [
+                {
+                    "kind": "circle",
+                    "option_index": 1,
+                    "label": "Spanish Mass Sat 5pm",
+                    "alignment_box": [
+                        0.011818,
+                        0.78451,
+                        0.024491,
+                        0.802807
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 2,
+                    "label": "Saturday 6pm",
+                    "alignment_box": [
+                        0.170101,
+                        0.783996,
+                        0.182765,
+                        0.802295
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 3,
+                    "label": "Sunday 8am",
+                    "alignment_box": [
+                        0.323454,
+                        0.784445,
+                        0.33611,
+                        0.802747
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 4,
+                    "label": "Sunday 8am",
+                    "alignment_box": [
+                        0.011886,
+                        0.803286,
+                        0.024558,
+                        0.821579
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 5,
+                    "label": "Sunday 10am",
+                    "alignment_box": [
+                        0.170158,
+                        0.803737,
+                        0.182821,
+                        0.822032
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 6,
+                    "label": "Sunday 11am",
+                    "alignment_box": [
+                        0.323498,
+                        0.803708,
+                        0.336153,
+                        0.822006
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 7,
+                    "label": "Samoan Mass 12.30pm",
+                    "alignment_box": [
+                        0.011963,
+                        0.824464,
+                        0.024633,
+                        0.842753
+                    ]
+                },
+                {
+                    "kind": "circle",
+                    "option_index": 8,
+                    "label": "Sunday 5pm",
+                    "alignment_box": [
+                        0.170222,
+                        0.8254,
+                        0.182884,
+                        0.843692
+                    ]
+                }
+            ],
+            "text": "What Mass are you at today?"
+        },
+        {
+            "id": "Q27",
+			"page": 4,
+            "type": "written",
+            "inputs": [
+                {
+                    "kind": "written",
+                    "label": "Feedback or comments",
+                    "alignment_box": [
+                        -0.001467,
+                        0.871085,
+                        0.456592,
+                        0.979335
+                    ]
+                }
+            ],
+            "text": "Feedback or comments"
+        }
+    ],
+    "barcodes": [
+        {
+            "logical_page": "P4",
+            "sheet": 1,
+            "alignment_box": [
+                0.209474,
+                0.980772,
+                0.270905,
+                1.011536
+            ]
+        },
+        {
+            "logical_page": "P1",
+            "sheet": 1,
+            "alignment_box": [
+                0.740349,
+                0.980762,
+                0.802768,
+                1.011541
+            ]
+        },
+        {
+            "logical_page": "P2",
+            "sheet": 2,
+            "alignment_box": [
+                0.207496,
+                0.98242,
+                0.269041,
+                1.013326
+            ]
+        },
+        {
+            "logical_page": "P3",
+            "sheet": 2,
+            "alignment_box": [
+                0.73776,
+                0.9809,
+                0.79824,
+                1.011796
+            ]
+        }
+    ]
+}
