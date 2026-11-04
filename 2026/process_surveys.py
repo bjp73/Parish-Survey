@@ -19,6 +19,10 @@ import pytesseract
 from io import BytesIO
 import csv
 import PIL.Image
+sys.path.append(r"C:\GIT\MPG") 
+import general_routines as gr
+from datetime import datetime as dt
+
 
 from openpyxl import Workbook
 from openpyxl.drawing.image import Image
